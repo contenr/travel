@@ -35,7 +35,6 @@ a{
 	display:block;
 	width:.44rem;
 	height:.44rem;
-	/*background:url(../../images/jww-images/back.png) no-repeat center center/cover;*/
 }
 .index-destination header .back img{
 	width:99%;
@@ -88,14 +87,26 @@ a{
 }
 @media screen and (min-width:360px) {
 	.index-destination .title .bottom .tou{
+		margin-right:.17rem;
+		padding:.02rem .1rem;
+	}
+}
+@media screen and (max-width:320px) {
+	.index-destination .title .bottom .tou{
+		margin-right:.15rem;
+		padding:0 .05rem;
+	}
+}
+@media screen and (min-width:375px) {
+	.index-destination .title .bottom .tou{
 		margin-right:.22rem;
 		padding:.02rem .1rem;
 	}
 }
-@media screen and (max-width:360px) {
+@media screen and (min-width:410px) {
 	.index-destination .title .bottom .tou{
-		margin-right:.15rem;
-		padding:0 .05rem;
+		margin-right:.34rem;
+		padding:.02rem .1rem;
 	}
 }
 .index-destination .title .bottom .background2{
@@ -135,7 +146,6 @@ a{
 	width:50%;
 	height:50%;
 	color:#9C9C9C;
-	font-size:12px;
 	margin-bottom:.3rem;
 }
 .index-destination .times .fen .span{
@@ -184,7 +194,6 @@ a{
 .index-destination .content .contents .contents-margin{
 	color:#787878;
 	margin-top:.45rem;
-	font-size:12px;
 	line-height:.4rem;
 }
 /*-------------------------------------------------------*/

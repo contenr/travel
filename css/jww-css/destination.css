@@ -89,14 +89,26 @@ a{
 }
 @media screen and (min-width:360px) {
 	.index-destination .title .bottom .tou{
+		margin-right:.17rem;
+		padding:.02rem .1rem;
+	}
+}
+@media screen and (max-width:320px) {
+	.index-destination .title .bottom .tou{
+		margin-right:.15rem;
+		padding:0 .05rem;
+	}
+}
+@media screen and (min-width:375px) {
+	.index-destination .title .bottom .tou{
 		margin-right:.22rem;
 		padding:.02rem .1rem;
 	}
 }
-@media screen and (max-width:360px) {
+@media screen and (min-width:410px) {
 	.index-destination .title .bottom .tou{
-		margin-right:.15rem;
-		padding:0 .05rem;
+		margin-right:.34rem;
+		padding:.02rem .1rem;
 	}
 }
 .index-destination .title .bottom .background2{

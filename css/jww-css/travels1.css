@@ -37,7 +37,6 @@ a{
 	display:block;
 	width:.44rem;
 	height:.44rem;
-	/*background:url(../../images/jww-images/back.png) no-repeat center center/cover;*/
 }
 .index-travels header .back img{
 	width:99%;
@@ -112,7 +111,6 @@ a{
 	text-align:center;
 	background:#74ECFE;
 	color:#fff;
-	font-size:12px;
 	padding:.04rem .1rem;
 	box-sizing:border-box;
 	margin-right:.08rem;
@@ -272,17 +270,15 @@ a{
 	text-align:center;
 	border-radius:.3rem;
 	height:.4rem;
-	font-size:.12rem;
-	line-height:.2rem;
 }
 @media screen and (min-width:320px) {
 	.index-travels .product .sunday .sunday-top span{
-		padding:.1rem .25rem;
+		padding:.1rem .21rem;
 	}
 }
 @media screen and (max-width:320px) {
 	.index-travels .product .sunday .sunday-top span{
-		padding:.1rem .2rem;
+		padding:.1rem .19rem;
 	}
 }
 .index-travels .product .sunday .sunday-top:nth-child(4){
