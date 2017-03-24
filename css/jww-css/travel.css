@@ -28,10 +28,13 @@ a{
 	display:block;
 	width:.44rem;
 	height:.44rem;
-	background:url(../../images/jww-images/back.png) no-repeat center center/cover;
+	/*background:url(../../images/jww-images/back.png) no-repeat center center/cover;*/
 }
 .index-travel header .back:last-child{
 	background:url(../../images/jww-images/9.png) no-repeat center center/cover;
+}
+.index-travel header .back img{
+	width:99%;
 }
 .index-travel header .jx{
 	width:.69rem;

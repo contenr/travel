@@ -3,7 +3,6 @@ body,html{
 	height:100%;
 }
 body{
-	font-size:16px;
 	font-family:Helvetica,sans-serif;
 	background:#EFEFEF;
 }
@@ -13,6 +12,16 @@ a{
 .index-travels{
 	height:100%;
 	overflow:scroll;
+}
+@media screen and (min-width:320px){
+	body{
+		font-size:14px;
+	}
+}
+@media screen and (max-width:320px){
+	body{
+		font-size:12px;
+	}
 }
 /*头部------------------------------------*/
 .index-travels header{
@@ -28,7 +37,10 @@ a{
 	display:block;
 	width:.44rem;
 	height:.44rem;
-	background:url(../../images/jww-images/back.png) no-repeat center center/cover;
+	/*background:url(../../images/jww-images/back.png) no-repeat center center/cover;*/
+}
+.index-travels header .back img{
+	width:99%;
 }
 .find{
 	text-align:center;
@@ -44,6 +56,11 @@ a{
 }
 .find img{
 	width:100%;
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
 }
 .left{
 	float:left;
@@ -74,12 +91,11 @@ a{
 }
 .index-travels .product .product-margin{
 	height:auto;
-	font-size:12px;
 	margin-bottom:.23rem;
 }
 .index-travels .product .link{
 	display:block;
-	width:.52rem;
+	width:.72rem;
 	height:.3rem;
 	position:absolute;
 	top:2.1rem;
@@ -89,7 +105,6 @@ a{
 	width:100%;
 }
 .index-travels .product .product-margin span{
-	font-size:16px;
 	color:#FD1440;
 	font-weight:bold;
 }
@@ -176,7 +191,6 @@ a{
 /*产品品牌开始--------------------------------------------*/
 .index-travels .number{
 	width:100%;
-	font-size:14px;
 	color:#181818;
 	margin-top:.1rem;
 	margin-bottom:.1rem;
@@ -190,7 +204,6 @@ a{
 .index-travels .product .numbers .numbers-left{
 	width:50%;
 	height:.35rem;
-	font-size:14px;
 	margin-bottom:.2rem;
 }
 .index-travels .product .numbers .numbers-left img{
@@ -217,7 +230,6 @@ a{
 /*行程安排----------------------------------------------*/
 .product{
 	display:block;
-	font-size:14px;
 }
 .index-travels .product .arrang{
 	height:auto;
@@ -331,26 +343,27 @@ a{
 }
 .index-travels .product .fen .fens{
 	display:block;
-	width:50%;
+	width:48%;
 	height:4.37rem;
 	margin-top:.27rem;
 	box-sizing:border-box;
 	position:relative;
 	border-radius:.1rem;
 	overflow:hidden;
-	padding-right:.09rem;
+	margin-right:.1rem;
+	overflow:hidden;
 }
 .index-travels .product .fen .fens img{
 	width:100%;
 }
 .index-travels .product .fen .fens:nth-child(2n){
-	padding-right:0;
-	padding-left:.09rem;
+	margin-right:0;
+	margin-left:.1rem;
 }
 .index-travels .product .fen .fens-top{
 	position:absolute;
 	bottom:0;
-	width:97.5%;
+	width:100%;
 	height:auto;
 	padding:.1rem;
 	box-sizing:border-box;

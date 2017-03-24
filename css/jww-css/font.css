@@ -3,7 +3,6 @@ body,html{
 	height:100%;
 }
 body{
-	font-size:16px;
 	background:#EFEFEF;
 	font-family: Helvetica,sans-serif;
 }
@@ -13,6 +12,16 @@ body{
 }
 a{
 	color:#141414;
+}
+@media screen and (min-width:320px){
+	body{
+		font-size:14px;
+	}
+}
+@media screen and (max-width:320px){
+	body{
+		font-size:12px;
+	}
 }
 /*------------------------------------*/
 .index-find header{
@@ -27,7 +36,10 @@ a{
 	display:block;
 	width:.44rem;
 	height:.44rem;
-	background:url(../../images/jww-images/back.png) no-repeat center center/cover;
+	/*background:url(../../images/jww-images/back.png) no-repeat center center/cover;*/
+}
+.index-find header .back img{
+	width:99%;
 }
 .find{
 	width:1.28rem;
@@ -75,6 +87,11 @@ a{
 }
 .index-find .headline-right img{
 	width:100%;
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
 }
 .index-find .headline-left .headline-top{
 	height:auto;
@@ -99,7 +116,6 @@ a{
 }
 .index-find .headline-left .headline-margin{
 	height:auto;
-	font-size:12px;
 	color:#4B4B4B;
 }
 @media screen and (min-width:320px) {
